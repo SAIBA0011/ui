@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,700);
+* {
+  box-sizing: border-box; }
+
+html, body {
+  font-family: 'Open Sans', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+.Utility__Muted {
+  color: #616167 !important; }
+
+.Utility__Wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto; }
+
+.Header {
+  padding: 1.5em 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center; }
+  .Header__Logo {
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700; }
+    .Header__Logo > span {
+      font-weight: 300;
+      color: #4daadf; }
+  .Header__Navigation {
+    display: -webkit-box;
+    display: flex;
+    font-size: .9em; }
+    .Header__Navigation > a {
+      color: #8b8b9f;
+      text-decoration: none;
+      margin-left: 1.5em; }
+      .Header__Navigation > a:active, .Header__Navigation > a:hover {
+        color: #4d4d5d; }
+
+.Banner {
+  background: url("/images/banner_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 6.5em 0; }
+  .Banner__Course {
+    width: 900px;
+    max-width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center; }
+    .Banner__Course__Poster {
+      width: 275px;
+      position: relative; }
+      .Banner__Course__Poster__Cover {
+        width: 100%;
+        max-width: 100%;
+        border-radius: .5em;
+        box-shadow: 0px 0px 76px 0px rgba(0, 0, 0, 0.47); }
+      .Banner__Course__Poster__Play {
+        position: absolute;
+        width: 80px;
+        left: 50%;
+        top: 50%;
+        margin: -40px 0 0 -40px; }
+    .Banner__Course__Content {
+      width: 500px;
+      margin-left: 100px; }
+    .Banner__Course__Title {
+      display: inline;
+      font-size: 1.75em;
+      color: #FFFFFF; }
+    .Banner__Course__Ratings {
+      display: inline;
+      margin-left: 1em; }
+      .Banner__Course__Ratings > i {
+        color: #4daadf;
+        font-size: 1.35em;
+        margin: 0 .15em; }
+    .Banner__Course__Description {
+      color: #bbbebf;
+      font-size: 1em;
+      line-height: 2em; }
+    .Banner__Course__Info {
+      color: #FFFFFF;
+      font-size: .8em;
+      font-weight: 700;
+      margin-top: 3em; }
+      .Banner__Course__Info > span {
+        margin: 0 .5em; }
+
+.Courses {
+  border-bottom: 1px solid #d4d4d4; }
+  .Courses__Wrapper {
+    padding: 3em 0; }
+  .Courses__Header {
+    padding: 0 0 1.5em 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center; }
+    .Courses__Header__Title {
+      font-size: 1.75em;
+      -webkit-box-flex: 1;
+      flex: 1; }
+    .Courses__Header__View_All {
+      font-size: .8em;
+      margin: 0 4.5% 0;
+      border: 1px solid #8b8b9f;
+      border-radius: .25em;
+      padding: .75em; }
+      .Courses__Header__View_All:hover {
+        color: #4daadf;
+        border: 1px solid #4daadf;
+        cursor: pointer; }
+  .Courses__Collection {
+    width: 100%;
+    display: -webkit-box;
+    display: flex; }
+
+.Course {
+  width: 22%;
+  margin-right: 2.5%; }
+  .Course__Image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: .5em; }
+  .Course__Title {
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    color: #252529; }
+  .Course__Info {
+    font-size: .75em;
+    color: #8b8b9f;
+    margin: 0.5em 0; }
+
+.Lessons__Wrapper {
+  padding: 3em 0; }
+
+.Lessons__Header {
+  padding: 0 0 1.5em 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center; }
+  .Lessons__Header__Title {
+    font-size: 1.75em;
+    -webkit-box-flex: 1;
+    flex: 1; }
+  .Lessons__Header__View_All {
+    font-size: .8em;
+    margin: 0 4.5% 0;
+    border: 1px solid #8b8b9f;
+    border-radius: .25em;
+    padding: .75em; }
+    .Lessons__Header__View_All:hover {
+      color: #4daadf;
+      border: 1px solid #4daadf;
+      cursor: pointer; }
+
+.Lessons__Collection {
+  width: 100%;
+  display: -webkit-box;
+  display: flex; }
+
+.Lesson {
+  width: 22%;
+  margin-right: 2.5%; }
+  .Lesson__Image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: .5em; }
+  .Lesson__Title {
+    font-size: 1em;
+    margin: 1em 0 0 0;
+    color: #252529; }
+  .Lesson__Info {
+    font-size: .75em;
+    color: #8b8b9f;
+    margin: 0.5em 0; }
+
+.Newsletter {
+  padding: 5em 0;
+  text-align: center;
+  background: #2a2a2e; }
+  .Newsletter__Wrapper {
+    width: 600px;
+    margin: 0 auto; }
+  .Newsletter__Title {
+    font-size: 1.75em;
+    color: #FFFFFF; }
+  .Newsletter__Signup_Form {
+    margin-top: 3em; }
+    .Newsletter__Signup_Form > input[type="text"], .Newsletter__Signup_Form input[type="email"] {
+      width: 48%;
+      margin: 0 0.5%;
+      height: 3.25em;
+      border: none;
+      outline: none;
+      border-radius: .3em;
+      background: #404043;
+      padding: .5em 1.25em;
+      font-size: .8em;
+      color: #FFFFFF; }
+    .Newsletter__Signup_Form > input[type="submit"] {
+      border: none;
+      outline: none;
+      padding: 1em 4.5em;
+      border-radius: 2em;
+      background: #4daadf;
+      color: #FFFFFF;
+      font-weight: 700;
+      font-size: .9em;
+      margin-top: 3em; }
+      .Newsletter__Signup_Form > input[type="submit"]:hover {
+        background: #2285bd; }
+
+.Footer {
+  padding: 2.5em 0;
+  text-align: center; }
+  .Footer__Logo {
+    text-transform: uppercase;
+    font-size: 1.15em;
+    font-weight: 700; }
+    .Footer__Logo > span {
+      font-weight: 300;
+      color: #4daadf; }
+  .Footer__Copyright {
+    color: #8b8b9f;
+    font-size: .75em;
+    margin: 0; }
+  .Footer__Links {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center; }
+    .Footer__Links > a {
+      color: #8b8b9f;
+      font-size: .75em;
+      text-decoration: none;
+      margin: 0 .5em; }
+      .Footer__Links > a:hover {
+        color: #4daadf; }
+
+/*# sourceMappingURL=app.css.map */

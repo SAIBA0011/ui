@@ -1,0 +1,41 @@
+.Newsletter
+	padding: 5em 0;
+	text-align: center;
+	background: #2a2a2e;
+
+	&__Wrapper
+		width: 600px;
+		margin: 0 auto;
+
+	&__Title
+		font-size: 1.75em;
+		color: $white;
+
+	&__Signup_Form
+		margin-top: 3em;
+
+		> input[type="text"], input[type="email"]
+			width: 48%;
+			margin: 0 0.5%;
+			height: 3.25em;
+			border: none;
+			outline: none;
+			border-radius: .3em;
+			background: #404043;
+			padding: .5em 1.25em;
+			font-size: .8em;
+			color: $white;
+
+		> input[type="submit"]
+			border: none;
+			outline: none;
+			padding: 1em 4.5em;
+			border-radius: 2em;
+			background: $highlight;
+			color: $white;
+			font-weight: 700;
+			font-size: .9em;
+			margin-top: 3em;
+
+			&:hover
+				background: darken($highlight, 15%);

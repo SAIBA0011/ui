@@ -1,0 +1,48 @@
+.Lessons
+
+	&__Wrapper
+		padding: 3em 0;
+
+	&__Header
+		padding: 0 0 1.5em 0;
+		display: flex;
+		align-items: center;
+
+		&__Title
+			font-size: 1.75em;
+			flex: 1;
+
+		&__View_All
+			font-size: .8em;
+			margin: 0 4.5% 0;
+			border: 1px solid $secondary;
+			border-radius: .25em;
+			padding: .75em;
+
+			&:hover
+				color: $highlight;
+				border: 1px solid $highlight;
+				cursor: pointer;
+
+	&__Collection
+		width: 100%;
+		display: flex
+
+.Lesson
+	width: 22%;
+	margin-right: 2.5%;
+
+	&__Image
+		width: 100%;
+		max-width: 100%;
+		border-radius: .5em;
+
+	&__Title
+		font-size: 1em;
+		margin: 1em 0 0 0;
+		color: $main;
+
+	&__Info
+		font-size: .75em;
+		color: $secondary;
+		margin: 0.5em 0;
